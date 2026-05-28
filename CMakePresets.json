@@ -8,6 +8,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/kk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/kk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -20,6 +22,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/lk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/lk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -32,6 +36,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/mk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/mk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+dotprod"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -44,6 +50,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/nk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/nk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -56,6 +64,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/qk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/qk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+dotprod+i8mm"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -68,6 +78,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/rk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/rk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -80,6 +92,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/sk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/sk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -92,6 +106,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/uk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/uk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -104,6 +120,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/yk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/yk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -116,6 +134,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/ml",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/ml",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+sve+sve2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -128,6 +148,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/ql",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/ql",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -140,6 +162,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/qm",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/qm",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -152,6 +176,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/ym",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/ym",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sve+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -164,6 +190,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cpu/qn",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cpu/qn",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -176,6 +204,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/kkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/kkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -188,6 +218,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/lkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/lkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -200,6 +232,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/mkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/mkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -212,6 +246,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/qkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/qkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c -mfma"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -224,6 +260,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/ylkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/ylkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -236,6 +274,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/qnkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/qnkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -248,6 +288,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/qrkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/qrkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -260,6 +302,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/klokk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/klokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -272,6 +316,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knokk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -284,6 +330,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krokk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -296,6 +344,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/klzkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/klzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -308,6 +358,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knzkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -320,6 +372,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krzkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -332,6 +386,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/klzlk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/klzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -344,6 +400,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knzlk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -356,6 +414,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krzlk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -368,6 +428,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/klxmk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/klxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -380,6 +442,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knxmk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -392,6 +456,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krxmk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -404,6 +470,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/klxnk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/klxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -416,6 +484,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knxnk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -428,6 +498,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krxnk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -440,6 +512,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/klxpk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/klxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -452,6 +526,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knxpk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -464,6 +540,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krxpk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -476,6 +554,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/klxrk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/klxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -488,6 +568,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knxrk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -500,6 +582,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krxrk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -512,6 +596,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/knxzq",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/knxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -524,6 +610,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cpu/krxzq",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cpu/krxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -536,6 +624,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/kk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/kk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -548,6 +638,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/lk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/lk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -560,6 +652,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/mk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/mk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+dotprod"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -572,6 +666,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/nk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/nk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -584,6 +680,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/qk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/qk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+dotprod+i8mm"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -596,6 +694,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/rk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/rk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -608,6 +708,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/sk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/sk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -620,6 +722,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/uk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/uk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -632,6 +736,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/yk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/yk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -644,6 +750,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/ml",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/ml",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+sve+sve2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -656,6 +764,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/ql",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/ql",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -668,6 +778,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/qm",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/qm",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -680,6 +792,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/ym",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/ym",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sve+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -692,6 +806,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/cpu/qn",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/cpu/qn",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -704,6 +820,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/kkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/kkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -716,6 +834,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/lkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/lkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -728,6 +848,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/mkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/mkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -740,6 +862,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/qkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/qkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c -mfma"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -752,6 +876,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/ylkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/ylkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -764,6 +890,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/qnkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/qnkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -776,6 +904,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/qrkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/qrkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -788,6 +918,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/klokk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/klokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -800,6 +932,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knokk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -812,6 +946,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krokk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -824,6 +960,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/klzkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/klzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -836,6 +974,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knzkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -848,6 +988,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krzkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -860,6 +1002,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/klzlk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/klzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -872,6 +1016,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knzlk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -884,6 +1030,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krzlk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -896,6 +1044,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/klxmk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/klxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -908,6 +1058,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knxmk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -920,6 +1072,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krxmk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -932,6 +1086,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/klxnk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/klxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -944,6 +1100,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knxnk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -956,6 +1114,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krxnk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -968,6 +1128,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/klxpk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/klxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -980,6 +1142,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knxpk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -992,6 +1156,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krxpk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1004,6 +1170,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/klxrk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/klxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1016,6 +1184,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knxrk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1028,6 +1198,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krxrk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1040,6 +1212,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/knxzq",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/knxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1052,6 +1226,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/cpu/krxzq",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/cpu/krxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1064,6 +1240,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/kk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/kk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1076,6 +1254,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/lk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/lk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1088,6 +1268,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/mk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/mk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+dotprod"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1100,6 +1282,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/nk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/nk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1112,6 +1296,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/qk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/qk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+dotprod+i8mm"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1124,6 +1310,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/rk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/rk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1136,6 +1324,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/sk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/sk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1148,6 +1338,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/uk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/uk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1160,6 +1352,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/yk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/yk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm+sve"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1172,6 +1366,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/ml",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/ml",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+sve+sve2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1184,6 +1380,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/ql",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/ql",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1196,6 +1394,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/qm",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/qm",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1208,6 +1408,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/ym",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/ym",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sve+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1220,6 +1422,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/freebsd/cpu/qn",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/freebsd/cpu/qn",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2+sme"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1232,6 +1436,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/kkkkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/kkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1244,6 +1450,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/lkkkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/lkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1256,6 +1464,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/mkkkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/mkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1268,6 +1478,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/qkkkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/qkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c -mfma"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1280,6 +1492,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/ylkkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/ylkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1292,6 +1506,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/qnkkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/qnkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1304,6 +1520,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/qrkkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/qrkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1316,6 +1534,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/klokk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/klokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1328,6 +1548,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knokk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1340,6 +1562,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krokk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1352,6 +1576,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/klzkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/klzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1364,6 +1590,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knzkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1376,6 +1604,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krzkk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1388,6 +1618,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/klzlk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/klzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1400,6 +1632,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knzlk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1412,6 +1646,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krzlk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1424,6 +1660,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/klxmk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/klxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1436,6 +1674,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knxmk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1448,6 +1688,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krxmk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1460,6 +1702,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/klxnk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/klxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1472,6 +1716,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knxnk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1484,6 +1730,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krxnk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1496,6 +1744,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/klxpk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/klxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1508,6 +1758,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knxpk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1520,6 +1772,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krxpk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1532,6 +1786,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/klxrk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/klxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1544,6 +1800,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knxrk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1556,6 +1814,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krxrk",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1568,6 +1828,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/knxzq",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/knxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1580,6 +1842,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/freebsd/cpu/krxzq",
         "LLAMA_INSTALL_OS": "freebsd",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/freebsd/cpu/krxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16"
       },
       "toolchainFile": "toolchains/cross.cmake",
@@ -1592,6 +1856,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/kk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/kk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic",
         "GGML_VULKAN": "ON"
       },
@@ -1605,6 +1871,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/lk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/lk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16",
         "GGML_VULKAN": "ON"
       },
@@ -1618,6 +1886,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/mk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/mk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+dotprod",
         "GGML_VULKAN": "ON"
       },
@@ -1631,6 +1901,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/nk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/nk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod",
         "GGML_VULKAN": "ON"
       },
@@ -1644,6 +1916,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/qk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/qk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+dotprod+i8mm",
         "GGML_VULKAN": "ON"
       },
@@ -1657,6 +1931,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/rk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/rk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm",
         "GGML_VULKAN": "ON"
       },
@@ -1670,6 +1946,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/sk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/sk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+sve",
         "GGML_VULKAN": "ON"
       },
@@ -1683,6 +1961,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/uk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/uk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod+sve",
         "GGML_VULKAN": "ON"
       },
@@ -1696,6 +1976,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/yk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/yk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm+sve",
         "GGML_VULKAN": "ON"
       },
@@ -1709,6 +1991,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/ml",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/ml",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+sve+sve2",
         "GGML_VULKAN": "ON"
       },
@@ -1722,6 +2006,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/ql",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/ql",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2",
         "GGML_VULKAN": "ON"
       },
@@ -1735,6 +2021,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/qm",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/qm",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sme",
         "GGML_VULKAN": "ON"
       },
@@ -1748,6 +2036,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/ym",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/ym",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sve+sme",
         "GGML_VULKAN": "ON"
       },
@@ -1761,6 +2051,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/qn",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/qn",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2+sme",
         "GGML_VULKAN": "ON"
       },
@@ -1774,6 +2066,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/vulkan/probe",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/vulkan/probe",
         "LLAMA_INSTALL_PROBE": "vulkan"
       },
       "toolchainFile": "toolchains/vulkan.cmake",
@@ -1786,6 +2080,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/kkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/kkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64",
         "GGML_VULKAN": "ON"
       },
@@ -1799,6 +2095,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/lkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/lkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx",
         "GGML_VULKAN": "ON"
       },
@@ -1812,6 +2110,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/mkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/mkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c",
         "GGML_VULKAN": "ON"
       },
@@ -1825,6 +2125,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/qkkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/qkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c -mfma",
         "GGML_VULKAN": "ON"
       },
@@ -1838,6 +2140,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/ylkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/ylkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2",
         "GGML_VULKAN": "ON"
       },
@@ -1851,6 +2155,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/qnkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/qnkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni",
         "GGML_VULKAN": "ON"
       },
@@ -1864,6 +2170,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/qrkkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/qrkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8",
         "GGML_VULKAN": "ON"
       },
@@ -1877,6 +2185,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/klokk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/klokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -1890,6 +2200,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knokk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -1903,6 +2215,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krokk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -1916,6 +2230,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/klzkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/klzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -1929,6 +2245,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knzkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -1942,6 +2260,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krzkk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -1955,6 +2275,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/klzlk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/klzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni",
         "GGML_VULKAN": "ON"
       },
@@ -1968,6 +2290,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knzlk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni",
         "GGML_VULKAN": "ON"
       },
@@ -1981,6 +2305,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krzlk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni",
         "GGML_VULKAN": "ON"
       },
@@ -1994,6 +2320,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/klxmk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/klxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2007,6 +2335,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knxmk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2020,6 +2350,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krxmk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2033,6 +2365,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/klxnk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/klxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2046,6 +2380,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knxnk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2059,6 +2395,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krxnk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2072,6 +2410,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/klxpk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/klxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2085,6 +2425,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knxpk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2098,6 +2440,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krxpk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2111,6 +2455,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/klxrk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/klxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2124,6 +2470,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knxrk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2137,6 +2485,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krxrk",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2150,6 +2500,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/knxzq",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/knxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2163,6 +2515,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/krxzq",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/krxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2176,6 +2530,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/vulkan/probe",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/vulkan/probe",
         "LLAMA_INSTALL_PROBE": "vulkan"
       },
       "toolchainFile": "toolchains/vulkan.cmake",
@@ -2188,6 +2544,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/kk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/kk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic",
         "GGML_VULKAN": "ON"
       },
@@ -2201,6 +2559,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/lk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/lk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16",
         "GGML_VULKAN": "ON"
       },
@@ -2214,6 +2574,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/mk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/mk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+dotprod",
         "GGML_VULKAN": "ON"
       },
@@ -2227,6 +2589,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/nk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/nk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod",
         "GGML_VULKAN": "ON"
       },
@@ -2240,6 +2604,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/qk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/qk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+dotprod+i8mm",
         "GGML_VULKAN": "ON"
       },
@@ -2253,6 +2619,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/rk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/rk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm",
         "GGML_VULKAN": "ON"
       },
@@ -2266,6 +2634,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/sk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/sk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+sve",
         "GGML_VULKAN": "ON"
       },
@@ -2279,6 +2649,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/uk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/uk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_2a+fullfp16+dotprod+sve",
         "GGML_VULKAN": "ON"
       },
@@ -2292,6 +2664,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/yk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/yk",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_4a+fullfp16+dotprod+i8mm+sve",
         "GGML_VULKAN": "ON"
       },
@@ -2305,6 +2679,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/ml",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/ml",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+sve+sve2",
         "GGML_VULKAN": "ON"
       },
@@ -2318,6 +2694,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/ql",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/ql",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2",
         "GGML_VULKAN": "ON"
       },
@@ -2331,6 +2709,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/qm",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/qm",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sme",
         "GGML_VULKAN": "ON"
       },
@@ -2344,6 +2724,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/ym",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/ym",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v8_7a+fullfp16+dotprod+i8mm+sve+sme",
         "GGML_VULKAN": "ON"
       },
@@ -2357,6 +2739,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/qn",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/qn",
         "LLAMA_INSTALL_FLAGS": "-mcpu=generic+v9a+fullfp16+dotprod+i8mm+sve+sve2+sme",
         "GGML_VULKAN": "ON"
       },
@@ -2370,6 +2754,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/windows/vulkan/probe",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/windows/vulkan/probe",
         "LLAMA_INSTALL_PROBE": "vulkan"
       },
       "toolchainFile": "toolchains/vulkan.cmake",
@@ -2382,6 +2768,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/kkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/kkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64",
         "GGML_VULKAN": "ON"
       },
@@ -2395,6 +2783,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/lkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/lkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx",
         "GGML_VULKAN": "ON"
       },
@@ -2408,6 +2798,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/mkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/mkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c",
         "GGML_VULKAN": "ON"
       },
@@ -2421,6 +2813,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/qkkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/qkkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v2 -mavx -mf16c -mfma",
         "GGML_VULKAN": "ON"
       },
@@ -2434,6 +2828,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/ylkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/ylkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2",
         "GGML_VULKAN": "ON"
       },
@@ -2447,6 +2843,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/qnkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/qnkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni",
         "GGML_VULKAN": "ON"
       },
@@ -2460,6 +2858,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/qrkkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/qrkkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8",
         "GGML_VULKAN": "ON"
       },
@@ -2473,6 +2873,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/klokk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/klokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -2486,6 +2888,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knokk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -2499,6 +2903,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krokk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krokk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v3 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -2512,6 +2918,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/klzkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/klzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -2525,6 +2933,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knzkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -2538,6 +2948,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krzkk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krzkk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd",
         "GGML_VULKAN": "ON"
       },
@@ -2551,6 +2963,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/klzlk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/klzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni",
         "GGML_VULKAN": "ON"
       },
@@ -2564,6 +2978,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knzlk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni",
         "GGML_VULKAN": "ON"
       },
@@ -2577,6 +2993,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krzlk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krzlk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni",
         "GGML_VULKAN": "ON"
       },
@@ -2590,6 +3008,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/klxmk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/klxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2603,6 +3023,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knxmk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2616,6 +3038,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krxmk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krxmk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2629,6 +3053,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/klxnk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/klxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2642,6 +3068,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knxnk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2655,6 +3083,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krxnk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krxnk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi",
         "GGML_VULKAN": "ON"
       },
@@ -2668,6 +3098,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/klxpk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/klxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2681,6 +3113,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knxpk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2694,6 +3128,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krxpk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krxpk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2707,6 +3143,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/klxrk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/klxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2720,6 +3158,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knxrk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2733,6 +3173,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krxrk",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krxrk",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2746,6 +3188,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/knxzq",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/knxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2759,6 +3203,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/krxzq",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/krxzq",
         "LLAMA_INSTALL_FLAGS": "-march=x86_64_v4 -mavx -mf16c -mfma -mavx2 -mbmi2 -mavxvnni -mavxvnniint8 -mavx512f -mavx512vl -mavx512bw -mavx512dq -mavx512cd -mavx512vnni -mavx512vbmi -mavx512bf16 -mavx512fp16 -mamx-tile -mamx-int8 -mamx-bf16",
         "GGML_VULKAN": "ON"
       },
@@ -2772,6 +3218,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/windows/vulkan/probe",
         "LLAMA_INSTALL_OS": "windows",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/windows/vulkan/probe",
         "LLAMA_INSTALL_PROBE": "vulkan"
       },
       "toolchainFile": "toolchains/vulkan.cmake",
@@ -2784,6 +3232,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/75",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/75",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "75"
@@ -2798,6 +3248,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/80",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/80",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "80"
@@ -2812,6 +3264,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/86",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/86",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "86"
@@ -2826,6 +3280,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/89",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/89",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "89"
@@ -2840,6 +3296,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/90",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/90",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "90"
@@ -2854,6 +3312,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/100",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/100",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "100"
@@ -2868,6 +3328,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/120",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/120",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "120"
@@ -2882,6 +3344,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/linux/cuda/probe",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/linux/cuda/probe",
         "LLAMA_INSTALL_PROBE": "cuda",
         "LLAMA_INSTALL_PROBE_ARCHS": "75,80,86,89,90,100,120",
         "CMAKE_CUDA_ARCHITECTURES": "75;80;86;89;90;100;120"
@@ -2896,6 +3360,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/75",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/75",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "75"
@@ -2910,6 +3376,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/80",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/80",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "80"
@@ -2924,6 +3392,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/86",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/86",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "86"
@@ -2938,6 +3408,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/89",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/89",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "89"
@@ -2952,6 +3424,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/90",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/90",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "90"
@@ -2966,6 +3440,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/100",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/100",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "100"
@@ -2980,6 +3456,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/120",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/120",
         "GGML_CUDA": "ON",
         "GGML_STATIC": "ON",
         "CMAKE_CUDA_ARCHITECTURES": "120"
@@ -2994,6 +3472,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/cuda/probe",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/cuda/probe",
         "LLAMA_INSTALL_PROBE": "cuda",
         "LLAMA_INSTALL_PROBE_ARCHS": "75,80,86,89,90,100,120",
         "CMAKE_CUDA_ARCHITECTURES": "75;80;86;89;90;100;120"
@@ -3008,6 +3488,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx803",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx803",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "OFF",
         "CMAKE_HIP_ARCHITECTURES": "gfx803"
@@ -3022,6 +3504,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx900",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx900",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "OFF",
         "CMAKE_HIP_ARCHITECTURES": "gfx900"
@@ -3036,6 +3520,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx906",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx906",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "OFF",
         "CMAKE_HIP_ARCHITECTURES": "gfx906"
@@ -3050,6 +3536,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx908",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx908",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx908"
@@ -3064,6 +3552,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx90a",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx90a",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx90a"
@@ -3078,6 +3568,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx942",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx942",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx942"
@@ -3092,6 +3584,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1010",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1010",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "OFF",
         "CMAKE_HIP_ARCHITECTURES": "gfx1010"
@@ -3106,6 +3600,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1011",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1011",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "OFF",
         "CMAKE_HIP_ARCHITECTURES": "gfx1011"
@@ -3120,6 +3616,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1030",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1030",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "OFF",
         "CMAKE_HIP_ARCHITECTURES": "gfx1030"
@@ -3134,6 +3632,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1032",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1032",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "OFF",
         "CMAKE_HIP_ARCHITECTURES": "gfx1032"
@@ -3148,6 +3648,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1100",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1100",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx1100"
@@ -3162,6 +3664,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1101",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1101",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx1101"
@@ -3176,6 +3680,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1102",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1102",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx1102"
@@ -3190,6 +3696,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1151",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1151",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx1151"
@@ -3204,6 +3712,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1200",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1200",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx1200"
@@ -3218,6 +3728,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/gfx1201",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/gfx1201",
         "GGML_HIP": "ON",
         "GGML_HIP_ROCWMMA_FATTN": "ON",
         "CMAKE_HIP_ARCHITECTURES": "gfx1201"
@@ -3232,6 +3744,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/x86_64/linux/rocm/probe",
         "LLAMA_INSTALL_OS": "linux",
         "LLAMA_INSTALL_ARCH": "x86_64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "x86_64/linux/rocm/probe",
         "LLAMA_INSTALL_PROBE": "rocm"
       },
       "toolchainFile": "toolchains/rocm.cmake",
@@ -3244,6 +3758,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/macos/metal/m1",
         "LLAMA_INSTALL_OS": "macos",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/macos/metal/m1",
         "GGML_METAL": "ON",
         "GGML_METAL_EMBED_LIBRARY": "ON",
         "GGML_METAL_USE_BF16": "OFF",
@@ -3261,6 +3777,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/macos/metal/m2",
         "LLAMA_INSTALL_OS": "macos",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/macos/metal/m2",
         "GGML_METAL": "ON",
         "GGML_METAL_EMBED_LIBRARY": "ON",
         "GGML_METAL_USE_BF16": "OFF",
@@ -3278,6 +3796,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/macos/metal/m3",
         "LLAMA_INSTALL_OS": "macos",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/macos/metal/m3",
         "GGML_METAL": "ON",
         "GGML_METAL_EMBED_LIBRARY": "ON",
         "GGML_METAL_USE_BF16": "ON",
@@ -3295,6 +3815,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/macos/metal/m4",
         "LLAMA_INSTALL_OS": "macos",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/macos/metal/m4",
         "GGML_METAL": "ON",
         "GGML_METAL_EMBED_LIBRARY": "ON",
         "GGML_METAL_USE_BF16": "ON",
@@ -3312,6 +3834,8 @@
         "LLAMA_INSTALL_DIR": "${sourceDir}/output/aarch64/macos/metal/m5",
         "LLAMA_INSTALL_OS": "macos",
         "LLAMA_INSTALL_ARCH": "aarch64",
+        "LLAMA_APP_REPO": "https://huggingface.co/buckets/Serveurperso/install.sh/resolve",
+        "LLAMA_APP_ID_BINARY": "aarch64/macos/metal/m5",
         "GGML_METAL": "ON",
         "GGML_METAL_EMBED_LIBRARY": "ON",
         "GGML_METAL_USE_BF16": "ON",

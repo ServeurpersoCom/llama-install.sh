@@ -59,6 +59,9 @@ CUDA_ARCHS = ["75", "80", "86", "89", "90", "100", "120"]
 METAL_ARCHS = {1: "13.3", 2: "13.3", 3: "14.0", 4: "15.0", 5: "16.0"}
 CPU_ARCHS = {}
 
+# release channel baked into each binary for self update, override per channel via the environment
+APP_REPO = os.environ.get("LLAMA_APP_REPO", "https://huggingface.co/buckets/ggml-org/install.sh/resolve")
+
 def generate_features(features, implications):
     rules = [(1 << features.index(c), 1 << features.index(p)) for c, p in implications]
     ret = []
@@ -248,6 +251,8 @@ def generate_presets(os_name, arch, backend, toolchain, configs):
                 "LLAMA_INSTALL_DIR": f"${{sourceDir}}/output/{preset_path}",
                 "LLAMA_INSTALL_OS": os_name,
                 "LLAMA_INSTALL_ARCH": arch,
+                "LLAMA_APP_REPO": APP_REPO,
+                "LLAMA_APP_ID_BINARY": preset_path,
             } | config_cache,
             "toolchainFile": toolchain,
             "generator": "Ninja",
