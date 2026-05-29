@@ -103,10 +103,17 @@ main() {
 
 		case "$OS" in
 		(macos)   [ -x llama ] || probe_metal ;;
-		(linux)   [ -x llama ] || probe_cuda
-		          [ -x llama ] || probe_rocm
-		          [ -x llama ] || probe_vulkan
-		          [ -x llama ] || probe_cpu ;;
+		(linux)
+		          if   [ "$FORCE_CUDA" ];   then probe_cuda
+		          elif [ "$FORCE_ROCM" ];   then probe_rocm
+		          elif [ "$FORCE_VULKAN" ]; then probe_vulkan
+		          elif [ "$FORCE_CPU" ];    then probe_cpu
+		          else
+		              [ -x llama ] || probe_cuda
+		              [ -x llama ] || probe_rocm
+		              [ -x llama ] || probe_vulkan
+		              [ -x llama ] || probe_cpu
+		          fi ;;
 		(freebsd) [ -x llama ] || probe_cpu ;;
 		esac
 
